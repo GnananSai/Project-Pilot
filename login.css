@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: dubai;
 }
 
 body{
@@ -28,7 +28,10 @@ body{
     min-height: 480px;
 }
 
+
+
 .container p{
+    color:white;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
@@ -37,6 +40,7 @@ body{
 
 .container span{
     font-size: 12px;
+    color:#ffffff
 }
 
 .container a{
@@ -47,7 +51,7 @@ body{
 }
 
 .container button{
-    background-color: orange;
+    background-color: #ffa53f;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -58,6 +62,11 @@ body{
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+    transition: 0.21s;
+}
+
+.container button:hover{
+    background-color: #400052;
 }
 
 .container button.hidden{
@@ -68,6 +77,7 @@ body{
 .container form{
     background-color: rgba(38,38,38);
     display: flex;
+    color: white;
     align-items: center;
     justify-content: center;
     flex-direction: column;
